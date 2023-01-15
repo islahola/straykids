@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/straykids/static/css/main.58afa014.css",
-    "main.js": "/straykids/static/js/main.049b3169.js",
-    "static/media/maxident_changbin.jpg": "/straykids/static/media/maxident_changbin.85981dbde5a916852e13.jpg",
-    "static/media/maxident_all_group.jpg": "/straykids/static/media/maxident_all_group.c6d8c5e7fbe96a0dcaec.jpg",
-    "static/media/maxident_in.jpg": "/straykids/static/media/maxident_in.0397f588ca4b48bac336.jpg",
-    "static/media/scene.gltf": "/straykids/static/media/scene.f5891b2ee0abb0bb444f.gltf",
-    "static/media/maxident_hyunjin.jpg": "/straykids/static/media/maxident_hyunjin.bd8be928610104e14ead.jpg",
-    "static/media/maxident_felix.jpg": "/straykids/static/media/maxident_felix.4889486f05f2148ed423.jpg",
-    "static/media/maxident_seungmin.jpg": "/straykids/static/media/maxident_seungmin.28edd3801bdecb2dc0da.jpg",
-    "static/media/maxident_han.jpg": "/straykids/static/media/maxident_han.4fee724a88a556f73ead.jpg",
-    "static/media/maxident_bang_chan.jpg": "/straykids/static/media/maxident_bang_chan.46dd5b38b3058d479815.jpg",
-    "static/media/avatar.png": "/straykids/static/media/avatar.dcf7d08782b15943cdfc.png",
-    "static/media/blackLogo.png": "/straykids/static/media/blackLogo.1d83f0cec0fec11679df.png",
-    "index.html": "/straykids/index.html",
-    "main.58afa014.css.map": "/straykids/static/css/main.58afa014.css.map",
-    "main.049b3169.js.map": "/straykids/static/js/main.049b3169.js.map"
+    "main.css": "./static/css/main.58afa014.css",
+    "main.js": "./static/js/main.66c39642.js",
+    "static/media/maxident_changbin.jpg": "./static/media/maxident_changbin.85981dbde5a916852e13.jpg",
+    "static/media/maxident_all_group.jpg": "./static/media/maxident_all_group.c6d8c5e7fbe96a0dcaec.jpg",
+    "static/media/maxident_in.jpg": "./static/media/maxident_in.0397f588ca4b48bac336.jpg",
+    "static/media/scene.gltf": "./static/media/scene.f5891b2ee0abb0bb444f.gltf",
+    "static/media/maxident_hyunjin.jpg": "./static/media/maxident_hyunjin.bd8be928610104e14ead.jpg",
+    "static/media/maxident_felix.jpg": "./static/media/maxident_felix.4889486f05f2148ed423.jpg",
+    "static/media/maxident_seungmin.jpg": "./static/media/maxident_seungmin.28edd3801bdecb2dc0da.jpg",
+    "static/media/maxident_han.jpg": "./static/media/maxident_han.4fee724a88a556f73ead.jpg",
+    "static/media/maxident_bang_chan.jpg": "./static/media/maxident_bang_chan.46dd5b38b3058d479815.jpg",
+    "static/media/avatar.png": "./static/media/avatar.dcf7d08782b15943cdfc.png",
+    "static/media/blackLogo.png": "./static/media/blackLogo.1d83f0cec0fec11679df.png",
+    "index.html": "./index.html",
+    "main.58afa014.css.map": "./static/css/main.58afa014.css.map",
+    "main.66c39642.js.map": "./static/js/main.66c39642.js.map"
   },
   "entrypoints": [
     "static/css/main.58afa014.css",
-    "static/js/main.049b3169.js"
+    "static/js/main.66c39642.js"
   ]
 }
