@@ -12,7 +12,7 @@ import Lirik from '../components/maxident/lirik';
 import Test from '../components/maxident/test';
 import wave from '../assets/vector/wave.png'
 import { motion as m } from 'framer-motion'
-import Toggle from '../components/sidebar/toggle';
+import toggle from '../assets/icon/bar.png';
 
 const Maxident = () => {
   const [open, setOpen] = useState(true);
@@ -27,7 +27,7 @@ const Maxident = () => {
       initial={{x:"-90%",opacity:0}}
       animate={{x:"-0%",opacity:1}}
       transition={{duration:.85,ease:"easeOut"}}
-    className='maxident d-flex'>
+      className='maxident d-flex'>
       <div className= {open ? 'col-lg-10 col-md-11 wrap-konten' : 'col-lg-12 wrap-konten col-md-11 '}>
         <div 
           className='col-10 test-wrap'>
@@ -41,7 +41,9 @@ const Maxident = () => {
           </Routes>
         </div>
       </div>
-      <div className='toggle' onClick={handleOpen}>toggle</div>
+      <div className='toggle' onClick={handleOpen}>
+        <img src={toggle} alt="bar"/>
+      </div>
       <div className={open ? 'col-2 bg-white sidebar sideOpen' : 'col-2 bg-white sidebar'}>
       <div className='wave'>
         <img src={wave} alt="wave"/>

@@ -50,7 +50,7 @@ function Hero(props) {
         {maxident}
         </div>
         <div className="link-Test ">
-        <NavLink onMouseEnter={loop} onMouseLeave={mouseLeave} className="btn active" to="/maxident/">
+        <NavLink onMouseEnter={loop} onMouseLeave={mouseLeave} className="btn active" to="/oddenary/">
           <h1>Od<span className="green">dinary</span></h1>
         </NavLink>
         <NavLink onMouseEnter={loopMaxi} onMouseLeave={mouseLeave} className="btn active"  to="/maxident/">

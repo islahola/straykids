@@ -13,7 +13,7 @@ function Rute() {
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/home"  element={<Home />} />
-      <Route path="/oddenary"  element={<Oddenery />} />
+      <Route path="/oddenary//*"  element={<Oddenery />} />
       <Route path="/maxident//*"  element={<Maxident />} />
      </Routes>
   );
