@@ -1,4 +1,5 @@
 import logo from '../assets/logo/blackLogo.png';
+import { AppProvider } from '../components/contex/app-contex';
 import Name from '../components/first/form';
 import '../css/App.css';
 

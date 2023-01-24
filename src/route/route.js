@@ -11,9 +11,9 @@ import Oddenery from "../pages/oddenery";
 function Rute() {
   return (
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/home"  element={<Home />} />
-      <Route path="/oddenary//*"  element={<Oddenery />} />
+        <Route path="/" element={<App />} />
+        <Route path="/home"  element={<Home />} />
+      <Route path="/about//*"  element={<Oddenery />} />
       <Route path="/maxident//*"  element={<Maxident />} />
      </Routes>
   );

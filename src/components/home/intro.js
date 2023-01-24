@@ -1,8 +1,11 @@
-function Intro(props) {
+import { useAppContext } from "../contex/app-contex";
+
+function Intro() {
+  const contex = useAppContext()
   return (
-    <div className="App">
+    <div className="intro">
       <p>
-        Olla, DO YOU WANT TO BE {props.name}
+      { (contex.user == "") ? "STAY" : contex.user}, DO YOU WANT TO BE 
       </p>
     </div>
   );
